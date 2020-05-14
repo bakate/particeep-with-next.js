@@ -21,12 +21,16 @@ const MamaContext = ({ children }) => {
   const [currentCategory, setCurrentCategory] = useState('all');
   const [height, setHeight] = useState(0);
 
+  console.log({ moviesPerPage });
+
   useEffect(() => {
     try {
       setLoading(true);
       movies$.then(response => {
-        setMovies(response);
+        console.log('I am running papi');
         setSorted(Paginate(moviesPerPage, response));
+
+        setMovies(response);
       });
       setLoading(false);
     } catch (error) {

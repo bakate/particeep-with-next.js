@@ -7,7 +7,7 @@ const DarkModeSwitch = () => {
   return (
     <IconButton
       position="fixed"
-      size="sm"
+      size="md"
       rounded="full"
       opacity={height > 100 ? '1' : '0'}
       top=".4rem"
@@ -15,7 +15,7 @@ const DarkModeSwitch = () => {
       zIndex="tooltip"
       variant="solid"
       mb={{ base: '2' }}
-      variantColor="orange"
+      variantColor="red"
       aria-label="toggle color"
       color={colorMode === 'light' ? 'black' : 'white'}
       icon={colorMode === 'light' ? 'moon' : 'sun'}

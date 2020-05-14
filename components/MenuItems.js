@@ -11,12 +11,13 @@ const MenuItems = ({ label, defaultValue, content }) => {
       setCurrentCategory(e.target.value);
     }
     if (label === 'Nombre De Films') {
-      setMoviesPerPage(e.target.value);
+      setMoviesPerPage(parseInt(e.target.value));
     }
   };
 
   return (
     <Select
+      ml={{ md: '1rem' }}
       transition="all 0.2s"
       rounded="md"
       name={label}

@@ -29,7 +29,7 @@ const Header = () => {
         bg={bgColor[colorMode]}
         templateColumns={{ base: '1fr', md: '30% 70%' }}
         gap=".5rem"
-        p={{ md: ' 0 2rem' }}
+        p={{ md: '0 2rem' }}
         alignContent={{ base: 'center' }}
         justifyContent={{ base: 'center', md: 'space-between' }}
         justifyItems={{ base: 'center' }}
