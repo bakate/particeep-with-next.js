@@ -21,7 +21,7 @@ const Container = ({ children }) => {
         // align="center"
         color={color[colorMode]}
         bg={bgColor[colorMode]}
-        p={{ md: '0 2rem' }}
+        p={{ base: '0 1rem', md: '0 2rem' }}
         // maxW={1200}
         mx="auto"
       >

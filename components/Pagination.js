@@ -14,7 +14,7 @@ const Pagination = () => {
     <Flex
       p="0 2rem"
       align="center"
-      justify="flex-end"
+      justify={{ base: 'center', md: 'flex-end' }}
       color={color[colorMode]}
       bg={bgColor[colorMode]}
     >

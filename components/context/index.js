@@ -142,6 +142,7 @@ const MamaContext = ({ children }) => {
         setCategories,
         changePage,
         pages,
+        handleToggle,
       }}
     >
       {children}

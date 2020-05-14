@@ -16,7 +16,7 @@ const Hamburger = () => {
       cursor="pointer"
     >
       <svg
-        fill="orange"
+        fill="red"
         width="46px"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"

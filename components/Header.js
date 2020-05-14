@@ -29,8 +29,10 @@ const Header = () => {
         bg={bgColor[colorMode]}
         templateColumns={{ base: '1fr', md: '30% 70%' }}
         gap=".5rem"
-        p="0 2rem"
-        justifyContent="space-between"
+        p={{ md: ' 0 2rem' }}
+        alignContent={{ base: 'center' }}
+        justifyContent={{ base: 'center', md: 'space-between' }}
+        justifyItems={{ base: 'center' }}
         alignItems="center"
       >
         <Logo />

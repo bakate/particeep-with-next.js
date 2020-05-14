@@ -11,8 +11,7 @@ const Nav = () => {
     <Box
       display={{ base: show ? 'block' : 'none', md: 'flex' }}
       alignItems="center"
-      justifyContent="space-evenly"
-      textAlign={{ base: 'center' }}
+      justifyContent={{ base: 'center', md: 'space-evenly' }}
       fontSize="1rem"
     >
       <NavLinks href="/" title="accueil" />

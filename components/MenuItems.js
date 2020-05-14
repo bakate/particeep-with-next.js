@@ -17,7 +17,6 @@ const MenuItems = ({ label, defaultValue, content }) => {
 
   return (
     <Select
-      ml={3}
       transition="all 0.2s"
       rounded="md"
       name={label}
@@ -26,7 +25,7 @@ const MenuItems = ({ label, defaultValue, content }) => {
       _focus={{ outline: 0, boxShadow: 'outline' }}
       opacity=".5"
       borderWidth="1px"
-      maxW="15rem"
+      maxW={{ base: '9rem', md: '15rem' }}
       textTransform="uppercase"
       value={value}
       onChange={handleChange}
