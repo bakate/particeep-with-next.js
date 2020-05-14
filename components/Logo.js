@@ -11,7 +11,7 @@ const Logo = () => (
           objectFit="cover"
           mt={{ base: '1rem' }}
           px={{ base: '1rem' }}
-          size={{ base: '20px', md: '50px' }}
+          size="sm"
           height={{ base: '150px', md: '130px' }}
           width={{ base: '100%' }}
         />
