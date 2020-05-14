@@ -7,9 +7,6 @@ import Title from './Title';
 const Movies = () => {
   const { loading, sorted, pages, changePage, categories } = useInfos();
 
-  if (loading) {
-    return <Title title="chargement en cours" center />;
-  }
   if (sorted?.[pages]) {
     return (
       <>
@@ -56,6 +53,9 @@ const Movies = () => {
         </Flex>
       </>
     );
+  }
+  if (loading) {
+    return <Title title="chargement en cours" center />;
   }
   if (!categories.length) {
     return (
